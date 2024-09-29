@@ -1,4 +1,5 @@
-## Hi there 👋
+## 🧐Why don't skeletons fight each other?
+### 😈Because they don't have the guts!
 <!--
 84fab0,8fd3f4
 abecd6,fbed96
