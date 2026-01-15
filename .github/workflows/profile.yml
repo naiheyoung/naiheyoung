@@ -33,10 +33,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v6
+
       - name: Before Push
         run: git pull --rebase
-
-      - uses: actions/checkout@v6
 
       - run: mkdir -p .output
 
