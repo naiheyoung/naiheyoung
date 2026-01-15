@@ -34,14 +34,14 @@ a8edea,fed6e3
 <p>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naiheyoung&theme=dark" />
 </p>
-<p>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=naiheyoung&theme=dark" width="50%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=naiheyoung&theme=dark" width="50%" />
-</p>
 
 <p>
 <img src="./.output/github-stats-advanced.svg" />
 <img src="./.output/github-trophies.svg" />
+</p>
+
+<p>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" />
 </p>
 
 <!--
