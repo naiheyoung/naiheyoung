@@ -32,7 +32,7 @@ a8edea,fed6e3
 ## OTHER
 
 <p>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naiheyoung&theme=dark" />
+<img src="./.output/profile-details.svg" />
 </p>
 
 <p>
