@@ -38,6 +38,7 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           if git commit -m "chore: 3d contrib"; then
+            git pull --rebase
             git push
           fi
 
@@ -58,8 +59,8 @@ jobs:
           curl -s -o .output/profile-details.svg \
             https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${OWNER}&theme=dark
 
-      - name: List files
-        run: ls -l .output
+      - name: Before Push
+        run: git pull --rebase
 
       - name: Commit results
         uses: stefanzweifel/git-auto-commit-action@v7
