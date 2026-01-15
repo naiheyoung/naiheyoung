@@ -1,11 +1,48 @@
 ## 🧐Why don't skeletons fight each other?
+
 ### 😈Because they don't have the guts!
+
 <!--
 84fab0,8fd3f4
 abecd6,fbed96
 a8edea,fed6e3
 -->
-<img src="https://github-readme-stats.vercel.app/api?username=naiheyoung&hide=stars&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&text_color=eda8ab&icon_color=858bff&bg_color=35,a8edea,fed6e3&hide_border=true" alt="Naihe's GitHub stats" />&nbsp;<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naiheyoung&layout=compact&title_color=858bff&bg_color=35,fed6e3,a8edea&hide_border=true&hide_title=true" alt="Naihe's GitHub stats" />
+
+## Tech Stack
+
+<p align="center">
+<img src="./.output/skillicons1.svg" />
+<img src="./.output/skillicons2.svg" />
+<img src="./.output/skillicons3.svg" />
+</p>
+
+## USED
+
+<p align="center">
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode2.svg" alt="vscode" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea2.svg" alt="idea" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Webstorm/webstorm2.svg" alt="webstorm" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/PyCharm/pycharm2.svg" alt="pycharm" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Postman/postman2.svg" alt="postman" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Firebase/firebase2.svg" alt="firebase" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ubuntu/ubuntu2.svg" alt="ubuntu" height="20" />
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Chrome/chrome2.svg" alt="chrome" height="20" />
+</p>
+
+## OTHER
+
+<p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naiheyoung&theme=dark" />
+</p>
+<p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=naiheyoung&theme=dark" width="50%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=naiheyoung&theme=dark" width="50%" />
+</p>
+
+<p>
+<img src="./.output/github-stats-advanced.svg" />
+<img src="./.output/github-trophies.svg" />
+</p>
 
 <!--
 **naiheyoung/naiheyoung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

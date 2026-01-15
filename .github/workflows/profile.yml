@@ -1,0 +1,61 @@
+name: Github Profile
+
+on:
+  schedule:
+    - cron: '0 0 15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate_cards:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+
+    steps:
+      - uses: actions/checkout@v6
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+  generate_3d:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+
+    steps:
+      - uses: actions/checkout@v6
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "chore: 3d contrib"; then
+            git push
+          fi
+
+  generate_stats_advanced:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - run: mkdir -p .output
+      - name: Fetch SVG
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          curl -s -o .output/github-stats-advanced.svg \
+            https://stats.hyo.dev/api/github-stats-advanced?login=${OWNER}
+          curl -s -o .output/github-trophies.svg \
+            https://stats.hyo.dev/api/github-trophies?login=${OWNER}
+
+      - name: Commit results
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: stats advanced'
+          file_pattern: '.output/**'
