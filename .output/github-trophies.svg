@@ -264,7 +264,7 @@
       </g>
       <g id="editTitleTextGroup00">
 <g id ="badgeTitleTextGroupB-00" opacity="0">
-<text id="badgeTitleB-00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">undefined</text>
+<text id="badgeTitleB-00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">Commits</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup00">
@@ -279,7 +279,7 @@
           <animate begin="0.40s" xlink:href="#badgeTitleTextGroupB-00" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
       </defs>
       <defs>
-          <animate begin="0.70s" xlink:href="#barClipPathShapeB-00" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="7.831763642722251"/>
+          <animate begin="0.70s" xlink:href="#barClipPathShapeB-00" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="7.83"/>
       </defs>
   </svg>
 </g>,<g id="trophySet1">
@@ -633,7 +633,7 @@
       </g>
       <g id="editTitleTextGroup01">
 <g id ="badgeTitleTextGroupB01" opacity="0">
-<text id="badgeTitleB01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">undefined</text>
+<text id="badgeTitleB01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">Repositories</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup01">
@@ -648,7 +648,7 @@
           <animate begin="0.40s" xlink:href="#badgeTitleTextGroupB01" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
       </defs>
       <defs>
-          <animate begin="0.70s" xlink:href="#barClipPathShapeB01" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="21.468069792419357"/>
+          <animate begin="0.70s" xlink:href="#barClipPathShapeB01" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="21.47"/>
       </defs>
   </svg>
 </g>
