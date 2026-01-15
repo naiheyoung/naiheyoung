@@ -22,6 +22,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
   generate_3d:
+    needs: generate_cards
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
 
@@ -41,6 +42,7 @@ jobs:
           fi
 
   generate_stats_advanced:
+    needs: generate_3d
     runs-on: ubuntu-latest
 
     steps:
