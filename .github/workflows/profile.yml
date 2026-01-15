@@ -9,20 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  generate_cards:
-    runs-on: ubuntu-latest
-    name: generate-github-profile-summary-cards
-
-    steps:
-      - uses: actions/checkout@v6
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-
   generate_3d:
-    needs: generate_cards
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
 
@@ -38,7 +25,6 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           if git commit -m "chore: 3d contrib"; then
-            git pull --rebase
             git push
           fi
 
