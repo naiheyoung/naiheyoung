@@ -33,8 +33,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Before Push
+        run: git pull --rebase
+
       - uses: actions/checkout@v6
+
       - run: mkdir -p .output
+
       - name: Fetch SVG
         run: |
           OWNER="${{ github.repository_owner }}"
@@ -44,9 +49,6 @@ jobs:
             https://stats.hyo.dev/api/github-trophies?login=${OWNER}
           curl -s -o .output/profile-details.svg \
             https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${OWNER}&theme=dark
-
-      - name: Before Push
-        run: git pull --rebase
 
       - name: Commit results
         uses: stefanzweifel/git-auto-commit-action@v7
