@@ -230,10 +230,10 @@
 
   </g>
   <g id="currentStatsNumberText" opacity="0">
-      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">9</text>
+      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">10</text>
       <text id="currentStatsNumberTextType2" x="323" y="57.5" class="textCurrentStatsNumberStyle">2</text>
-      <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">4</text>
-      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">39</text>
+      <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">9</text>
+      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">37</text>
       <text id="currentStatsNumberTextType5" x="232" y="92.5" class="textCurrentStatsNumberStyle">0</text>
       <text id="currentStatsNumberTextType6" x="232" y="57.5" class="textCurrentStatsNumberStyle">0</text>
   </g>
@@ -256,7 +256,7 @@
   </g>
   <g id="text">
     <g id="averageText" opacity="0">
-      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">9</text>
+      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">10</text>
     </g>
     <g id="textAverageLabel" opacity="0">
       <text x="62" y="72" class="textLabelStyle">Average</text>
@@ -273,22 +273,22 @@
   <!-- 100% of width = 300 -->
   <g id="mostUsedLanguageLine" clip-path="url(#mostUsedLanguageLineClipper)">
     <g id="mostUsedLanguageLine1" opacity="0">
-      <rect class="langType1" x="24" y="140" width="201" height="2"/>
+      <rect class="langType1" x="24" y="140" width="189" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine2" opacity="0">
-      <rect class="langType2" x="225" y="140" width="45" height="2"/>
+      <rect class="langType2" x="213" y="140" width="51" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine3" opacity="0">
-      <rect class="langType3" x="270" y="140" width="39" height="2"/>
+      <rect class="langType3" x="264" y="140" width="45" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine4" opacity="0">
-      <rect class="langType4" x="309" y="140" width="9" height="2"/>
+      <rect class="langType4" x="309" y="140" width="12" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine5" opacity="0">
-      <rect class="langType5" x="318" y="140" width="3" height="2"/>
+      <rect class="langType5" x="321" y="140" width="0" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine6" opacity="0">
-      <rect class="langType6" x="321" y="140" width="3" height="2"/>
+      <rect class="langType6" x="321" y="140" width="0" height="2"/>
     </g>
     
     <defs>
@@ -307,38 +307,38 @@
             <li id="mostUsedLanguageText1">
               <span class="textLangDot1">●</span>
               <span class="textLangStyle">Markdown</span>
-              <span class="textLangPercent">67%</span>
+              <span class="textLangPercent">63%</span>
             </li>
 
             <li id="mostUsedLanguageText2">
               <span class="textLangDot2">●</span>
-              <span class="textLangStyle">Vue</span>
-              <span class="textLangPercent">15%</span>
+              <span class="textLangStyle">TypeScript</span>
+              <span class="textLangPercent">17%</span>
             </li>
 
             <li id="mostUsedLanguageText3">
               <span class="textLangDot3">●</span>
-              <span class="textLangStyle">TypeScript</span>
-              <span class="textLangPercent">13%</span>
+              <span class="textLangStyle">Vue</span>
+              <span class="textLangPercent">15%</span>
             </li>
           
 
           <li id="mostUsedLanguageText4">
             <span class="textLangDot4">●</span>
             <span class="textLangStyle">CSS</span>
-            <span class="textLangPercent">3%</span>
+            <span class="textLangPercent">4%</span>
           </li>
 
           <li id="mostUsedLanguageText5">
             <span class="textLangDot5">●</span>
             <span class="textLangStyle">HTML</span>
-            <span class="textLangPercent">1%</span>
+            <span class="textLangPercent">0%</span>
           </li>
 
           <li id="mostUsedLanguageText6">
             <span class="textLangDot6">●</span>
-            <span class="textLangStyle">Java</span>
-            <span class="textLangPercent">1%</span>
+            <span class="textLangStyle">JavaScript</span>
+            <span class="textLangPercent">0%</span>
           </li>
         </ul>
       </div>
@@ -356,7 +356,7 @@
   <animate begin="0.00s" xlink:href="#userNameText" attributeName="opacity" attributeType="XML" dur="0.5s" fill="freeze" from="0" to="1"/>
   <animate begin="0.00s" xlink:href="#titleText" attributeName="opacity" attributeType="XML" dur="0.8s" fill="freeze" from="0" to="1"/>
   <!-- Hexagon Morphing Animation -->
-  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,62.25 284.9438,68 285.3776,76.25 278,89.25 271.49,75.75 271.49,68.25"/>
+  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,62.00435033975286 284.96312859197,67.98886088521783 286.3688868459822,76.82128103157112 278,88.80842312216181 271.46137204311015,75.76650597145402 271.49,68.25"/>
   <animate begin="1.60s" xlink:href="#currentStatsShapeLoading" attributeName="opacity" attributeType="XML" dur="0.4s" fill="freeze" from="1" to="0"/>
   <!-- 6 Stats Animation -->
   <animate begin="1.50s" xlink:href="#statsBaseIcons" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
