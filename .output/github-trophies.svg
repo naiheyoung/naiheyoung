@@ -362,12 +362,12 @@
       </g>
       <g id="editTitleTextGroup00">
 <g id ="badgeTitleTextGroupB00" opacity="0">
-<text id="badgeTitleB00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">Commits</text>
+<text id="badgeTitleB00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">undefined</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup00">
           <g id="badgeSubtitleGroup00" opacity="0">
-              <text id="badgeSubtitle00" x="62" y="93.5" font-family="Inter, Sans-Serif" font-weight="400" font-size="9px" dominant-baseline="middle" text-anchor="middle" fill="white" fill-opacity="0.3">170</text>
+              <text id="badgeSubtitle00" x="62" y="93.5" font-family="Inter, Sans-Serif" font-weight="400" font-size="9px" dominant-baseline="middle" text-anchor="middle" fill="white" fill-opacity="0.3">167</text>
           </g>
       </g>
       <defs>
@@ -377,7 +377,7 @@
           <animate begin="0.40s" xlink:href="#badgeTitleTextGroupB00" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
       </defs>
       <defs>
-          <animate begin="0.70s" xlink:href="#barClipPathShapeB00" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="18.76"/>
+          <animate begin="0.70s" xlink:href="#barClipPathShapeB00" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="18.435192301999564"/>
       </defs>
   </svg>
 </g>,<g id="trophySet1">
@@ -735,12 +735,12 @@
       </g>
       <g id="editTitleTextGroup01">
 <g id ="badgeTitleTextGroupB+01" opacity="0">
-<text id="badgeTitleB+01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">Repositories</text>
+<text id="badgeTitleB+01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#F4A93A">undefined</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup01">
           <g id="badgeSubtitleGroup01" opacity="0">
-              <text id="badgeSubtitle01" x="62" y="93.5" font-family="Inter, Sans-Serif" font-weight="400" font-size="9px" dominant-baseline="middle" text-anchor="middle" fill="white" fill-opacity="0.3">10</text>
+              <text id="badgeSubtitle01" x="62" y="93.5" font-family="Inter, Sans-Serif" font-weight="400" font-size="9px" dominant-baseline="middle" text-anchor="middle" fill="white" fill-opacity="0.3">9</text>
           </g>
       </g>
       <defs>
@@ -750,7 +750,7 @@
           <animate begin="0.40s" xlink:href="#badgeTitleTextGroupB+01" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
       </defs>
       <defs>
-          <animate begin="0.70s" xlink:href="#barClipPathShapeB+01" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="30.3"/>
+          <animate begin="0.70s" xlink:href="#barClipPathShapeB+01" attributeName="width" attributeType="XML" dur="0.4s" fill="freeze" from="0" to="27.397736263880148"/>
       </defs>
   </svg>
 </g>
